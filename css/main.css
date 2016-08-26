@@ -1,20 +1,30 @@
+body{ 
+	padding-top: 50px; 
+}
 /*imagen de fondo*/
 #bg-fondo{
 	background: url("../image/large.jpg") no-repeat;
-	background-size: 100%;
-	height: 650px;
+	background-size:100%;
+	height: 45em;
 }
+.fondo{
+	background-color: rgba(0,0,0,.4);
+	background-size:100%;
+	height: auto;
+}
+/*foto de iconos*/
 .foto{
 	max-width: 100%;
 	height: 400px;
 }
-div{
-	border: 1px solid pink; 
-}
 /*fondo azul*/
 .bg-azul{
 	background-color: rgba(78,127,184,0.6);
-	padding: 4%;
+	padding: 3.3%;
+}
+/*margen*/
+.mgb-30{
+	margin-bottom: 20%;
 }
 /*color textos*/
 .txt-blanco, .bg-icono{
@@ -24,9 +34,10 @@ div{
 	color: #68ADFF;
 }
 /*imagenes*/
-span.txt-azul{
+span.txt-azul, .redes{
 	font-size: 2em;
 }
+/*logo texto*/
 .logo{
 	max-width: 40%;
 	height: 50px;
@@ -49,10 +60,6 @@ iframe{
 	border-radius: 100%;
 	position: absolute;
 }
-/*margen*/
-.mgb-30{
-	margin-bottom: 45%;
-}
 /*posicion icon*/
 .top{
 	top: 15%;
@@ -66,7 +73,61 @@ iframe{
 	bottom: 10%;
 	left: 93%;
 }
-/*padding*/
+/*padding flecha*/
 .pd-flecha{
 	padding: 3% 40%;
+}
+/*redes*/
+.redes{
+	color: #3275A4;
+}
+/*icono linea*/
+.separador{
+	max-width: 8%;
+	margin-left: 45%;
+}
+
+/*padding separacion*/
+.pdtb-2{
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+/*negritas*/
+strong{
+	font-size: 1.5em;
+}
+/*boton*/
+.btn{
+	padding: 5% 10%;
+	border: 0;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+/*texto principal*/
+.grande{
+	font-size: 3em;
+	padding: 10%;
+}
+/*nombre empresa*/
+a.name{
+	text-decoration: none;
+}
+h4{
+	color: #6987A4;
+	font-size: 1.5em;
+}
+/*animacion fondo*/
+.bg-pie{
+	background-color: #2A3541;
+	animation-name: navcolor;
+	animation-duration: 2s;
+}
+@-webkit-keyframes navcolor{
+	from{
+		background-color: #2C68A8;
+	}
+	to{
+		background-color: #2A3541;
+	}
 }

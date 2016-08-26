@@ -1,62 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-	  	<meta charset="utf-8">
-	  	<meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0, maximum-scale=1.0 minimum-scale=1.0"><!--Nos ayudara para los dispositivos móviles-->
-	  	<title>User Testing 360°</title>
-		<link rel="shortcut icon" href="favicon.ico"><!--fvicon-->
-		<link rel="stylesheet" type="text/css" href="css/icomoon.css"><!--fuentes-->
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"><!--Enlace de bootstrap-->
-		<link rel="stylesheet" type="text/css" href="css/animate.css"><!--estilos animacion-->
-		<link rel="stylesheet" type="text/css" href="css/queries.css"><!--queries-->
-		<link rel="stylesheet" type="text/css" href="css/main.css"><!--mis estilos-->
+	  <meta charset="utf-8">
+	  <title>User Testing 360°</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/icomoon.css">
+		<link rel="stylesheet" href="css/font-awesome.css">
+		<link rel="stylesheet" href="css/utilities.css">
+		<link rel="stylesheet" href="css/main.css">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 	<body>
 		<!--Escribe aqui tu codigo-->
-		<header><!--inicio de encabezado-->
-			<div class="container" id="bg-fondo"><!--inicio de menu-->
-				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-					<div class="row">
-						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+		<header><!-- inicia mi página TIMEBEACH-->
+			<div class="container banner background-img-responsive"> <!-- banner responsive--> 
+				<div class="row">
+					<div class="col-lg-12 col-xs-12">
+						<nav class="navbar navbar-fixed-top paddd colorff"><!-- inicia mi navegador que en lg esta en una barra y en xs esta en hamburguesa--> 
 							<div class="navbar-header">
-								<button type="button" class="navbar-toggle" data-toggle="collapse"
-								data-target="#menu-fijo">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
 									<span class="sr-only">Menu</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
+									<i class="fa fa-navicon fa-2x"></i> <!-- icono de hamburguesa--> 
 								</button>
-								<img src="image/user-r.png" alt="logo">
+									<img src="image/user-r.png">
 							</div>
-						</div>
-						<div class="col-xs-8 col-sm-8 col-md-8 col-lg8">
-							<div class="collapse navbar-collapse navbar-right" id="menu-fijo">
-    							<ul class="nav navbar-nav">
-									<li><a href="#servicios">¿Qué ofrece?</a></li>
-									<li><a href="#funcion">¿Cómo funciona?</a></li>
-									<li><a href="#uso">¿Por que usarlo?</a></li>
-									<li><a href="contact.html">Contáctanos</a></li>
-								</ul>
+							<div class="collapse navbar-collapse " id="myNavbar">
+								<ul class="nav navbar-nav navbar-right "><!-- elementos de mi navegador--> 
+									<li><a class="txtrosa colorf" href="#">¿Qué me ofrece?</a></li>
+									<li><a class="txtrosa colorf" href="#">¿Cómo funciona?</a></li>
+									<li><a class="txtrosa colorf" href="#">¿Por qué usarlo?</a></li>
+									<li><a class="txtrosa colorf" href="#">Contactanos</a></li>
+								</ul>	
 							</div>
-						</div>
+						</nav>
 					</div>
-				</nav><!--fin de menu-->
+				</div><!-- finaliza ROW -->
 				<div class="row mgb-30">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center"><!--titulo-->
-						<h2 class="txt-blanco">Obten videos de personal reales utilizando tu sitio web, en 1 Hora</h2>
+						<p class="txt-blanco grande">Obten videos de personal reales utilizando tu sitio web, en 1 Hora</p>
 					</div>
 				</div>
 				<div class="row bg-azul txt-blanco"><!--texto-->
 					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-right">
-						<h5>PRUEBA GRATUITA</h5>
+						<strong>PRUEBA GRATUITA</strong>
 						<p>Obtén un video gratis de 5 minutos</p>
 					</div>
 					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-left">
-						<button type="button" class="btn btn-outline-primary">Pruebalo gratis</button><!--boton-->
+						<button type="button" class="btn btn-primary">Pruebalo gratis</button><!--boton-->
 					</div>
 				</div>
 			</div><!--inicio contenedor header-->
 		</header><!--fin de encabezado-->
+
 		<div class="container"><!--inicio de contenido servicios-->
 			<section>
 				<div class="row">
@@ -64,31 +63,31 @@
 						<h2 class="txt-azul text-center">Nuestros servicios</h2>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row pdtb-2">
 					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center">
-						<span class="icon-video icono"></span><!--icon video-->
-						<h4>Pruebalo gratis</h4>
+						<span class="icon-video icono zoomIn"></span><!--icon video-->
+						<h4 class="pdtb-2">Pruebalo gratis</h4>
 						<p>Obtén un primer video screencast de un usuario navegando tu página.</p>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center">
-						<span class="icon-clock icono"></span><!--icon clock-->
-						<h4>Compra el servicio completo</h4>
+						<span class="icon-clock icono zoomIn"></span><!--icon clock-->
+						<h4 class="pdtb-2">Compra el servicio completo</h4>
 						<p>Si te gustó, compra nuestro servicio completo que incluye 7 videos y feedback.</p>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center">
-						<span class="icon-documents icono"></span><!--documents-->
-						<h4>Obtén el resultado en 1 día</h4>
+						<span class="icon-documents icono zoomIn"></span><!--documents-->
+						<h4 class="pdtb-2">Obtén el resultado en 1 día</h4>
 						<p>Te haremos llegar los videos y feedback completo el mismo día.</p>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row pdtb-2">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<img src="image/separador.png" alt="separador">
+						<img class="separador" src="image/separador.png" alt="separador">
 					</div>
 				</div>
 			</section><!--inicio de contenido servicios-->	
 			<section>
-				<div class="row">
+				<div class="row pdtb-2">
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 						<span class="txt-azul">Ejemplo de</span>
 						<img class="img-responsive logo" src="image/logo-2.jpg">
@@ -103,7 +102,7 @@
 				</div>
 			</section>
 			<section>
-				<div class="row">
+				<div class="row pdtb-2">
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 						<img class="img-responsive foto" src="image/sec-2.jpg" alt="imagen">
 						<span class="icon-pencil bg-icono top"></span>
@@ -128,22 +127,22 @@
 				</div>
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<img src="image/separador.png" alt="separador"><!--flecha hacia abajo-->
+						<img class="separador" src="image/separador.png" alt="separador"><!--flecha hacia abajo-->
 					</div>
 				</div>
 			</section>
 			<section>
-				<div class="row">
+				<div class="row pdtb-2">
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 						<span class="txt-azul">Por qué usar</span>
 						<img class="img-responsive logo" src="image/logo-2.jpg">
-						<p>En la era en la que nos encontramos, la web se ha convertido en el mejor sitio para llegar a millones de personas en segundos, pero ¿qué pasa si el producto digital que ofreces no es bueno o no se entiende? Pierdes esta enorme oportunidad. Con <span class="txt-azul">User Testing 360</span>, puedes entender la experiencia de uso de tu página o producto digital y mejorarla para que satisfaga todas las necesidades de tus usuarios. Con <span class="txt-azul">User Testing 360</span> podrás entender:</p>
+						<p class="text-justify">En la era en la que nos encontramos, la web se ha convertido en el mejor sitio para llegar a millones de personas en segundos, pero ¿qué pasa si el producto digital que ofreces no es bueno o no se entiende? Pierdes esta enorme oportunidad. Con <a href="#" class="txt-azul name">User Testing 360</a>, puedes entender la experiencia de uso de tu página o producto digital y mejorarla para que satisfaga todas las necesidades de tus usuarios. Con <a href="#" class="txt-azul name">User Testing 360</a> podrás entender:</p>
 						<ul>
 							<li>¿Cómo tu público objetivo verdaderamente usa tu producto?</li>
 							<li>¿Qué se hace fácil o difícil al navegar en tu producto?</li>
 							<li>¿Qué es lo que tu público quiere hacer y tal vez no obtiene o consigue?</li>
 						</ul>
-						<p><span class="txt-azul">"User Testing 360"</span> te ayudará a responder estas preguntas y muchas más. Es el toque final perfecto para tu página o producto digital.</p>
+						<p><a href="#" class="txt-azul name">"User Testing 360"</a> te ayudará a responder estas preguntas y muchas más. Es el toque final perfecto para tu página o producto digital.</p>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"> 
 						<img class="img-responsive" src="image/banner.jpg" alt="banner">
@@ -151,26 +150,26 @@
 				</div>
 			</section>
 			<section>
-				<div class="row bg-azul"><!--texto fondo azul-->
+				<div class="row bg-azul txt-blanco"><!--texto fondo azul-->
 					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-right">
-						<h5>PRUEBA GRATUITA</h5>
+						<strong>PRUEBA GRATUITA</strong>
 						<p>Obtén un video gratis de 5 minutos</p>
 					</div>
 					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-left">
-						<button type="button" class="btn btn-outline-primary">Pruebalo gratis</button><!--boton-->
-					</div>
+						<button type="button" class="btn btn-primary">Pruebalo gratis</button><!--boton-->
+					</div>	
 				</div>
 			</section>
 			<footer>
-				<div class="row">
-					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+				<div class="row pdtb-2 bg-pie txt-blanco">
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-left">
 						<p>Escribenos a:</p>
 						<a href="#">experienciadeusuario.lab@gmail.com</a>
 						<p>telef: 989637925</p>
 					</div>
-					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-						<span class="icon-facebook"></span>
-						<span class="icon-twitter"></span>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-right">
+						<span class="icon-facebook redes"></span>
+						<span class="icon-twitter redes"></span>
 						<p>Copyright&copy;2015-User Testing 360</p>
 					</div>
 				</div>
