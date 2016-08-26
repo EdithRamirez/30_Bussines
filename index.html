@@ -14,8 +14,8 @@
 	<body>
 		<!--Escribe aqui tu codigo-->
 		<header><!--inicio de encabezado-->
-			<div class="container-fluid"><!--inicio de menu-->
-				<nav class="navbar navbar-default" role="navigation">
+			<div class="container" id="bg-fondo"><!--inicio de menu-->
+				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 					<div class="row">
 						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 							<div class="navbar-header">
@@ -35,23 +35,23 @@
 									<li><a href="#servicios">¿Qué ofrece?</a></li>
 									<li><a href="#funcion">¿Cómo funciona?</a></li>
 									<li><a href="#uso">¿Por que usarlo?</a></li>
-									<li><a href="#contacto">Contáctanos</a></li>
+									<li><a href="contact.html">Contáctanos</a></li>
 								</ul>
 							</div>
 						</div>
 					</div>
 				</nav><!--fin de menu-->
-				<div class="row">
+				<div class="row mgb-30">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center"><!--titulo-->
-						<h2 class="txt-azul">Obten videos de personal reales utilizando tu sitio web, en 1 HOra</h2>
+						<h2 class="txt-blanco">Obten videos de personal reales utilizando tu sitio web, en 1 Hora</h2>
 					</div>
 				</div>
-				<div class="row"><!--texto-->
-					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+				<div class="row bg-azul txt-blanco"><!--texto-->
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-right">
 						<h5>PRUEBA GRATUITA</h5>
 						<p>Obtén un video gratis de 5 minutos</p>
 					</div>
-					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-left">
 						<button type="button" class="btn btn-outline-primary">Pruebalo gratis</button><!--boton-->
 					</div>
 				</div>
@@ -61,22 +61,22 @@
 			<section>
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<h2 class="">Nuestros servicios</h2>
+						<h2 class="txt-azul text-center">Nuestros servicios</h2>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-						<span class="icon-video"></span><!--icon video-->
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center">
+						<span class="icon-video icono"></span><!--icon video-->
 						<h4>Pruebalo gratis</h4>
 						<p>Obtén un primer video screencast de un usuario navegando tu página.</p>
 					</div>
-					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-						<span class="icon-clock"></span><!--icon clock-->
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center">
+						<span class="icon-clock icono"></span><!--icon clock-->
 						<h4>Compra el servicio completo</h4>
 						<p>Si te gustó, compra nuestro servicio completo que incluye 7 videos y feedback.</p>
 					</div>
-					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-						<span class="icon-documents"></span><!--documents-->
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center">
+						<span class="icon-documents icono"></span><!--documents-->
 						<h4>Obtén el resultado en 1 día</h4>
 						<p>Te haremos llegar los videos y feedback completo el mismo día.</p>
 					</div>
@@ -90,26 +90,28 @@
 			<section>
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-						<h2 class="txt-azul">Ejemplo de <img src="image/logo-2.jpg"></h2>
+						<span class="txt-azul">Ejemplo de</span>
+						<img class="img-responsive logo" src="image/logo-2.jpg">
 						<p>En este video te damos un ejemplo de un integrante de nuestro panel evaluando la experiencia de usar</p>
 						<a href="">mimediamanzana.com</a>
 						<p>El objetivo de User Testig 360 es identificar situaciones confusas de los usuarios en su web y describir soluciones, que garanticen una experiencia de uso satisfactoria.</p>
-						<img src="image/flecha.png" alt="flecha"><!--flecha hacia abajo-->
+						<img class="pd-flecha" src="image/flecha.png" alt="flecha"><!--flecha hacia abajo-->
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/u7MDfG9ZJTU" frameborder="0" allowfullscreen></iframe>
+						<iframe src="https://www.youtube.com/embed/u7MDfG9ZJTU" frameborder="0" allowfullscreen></iframe>
 					</div>
 				</div>
 			</section>
 			<section>
 				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"><!--imagen de fondo-->
-						<span class="icon-pencil"></span>
-						<span class="icon-tools-2"></span>
-						<span class="icon-search"></span>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						<img class="img-responsive foto" src="image/sec-2.jpg" alt="imagen">
+						<span class="icon-pencil bg-icono top"></span>
+						<span class="icon-tools-2 bg-icono center"></span>
+						<span class="icon-search bg-icono bottom"></span>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-						<h3>Lo quiero ¿Qúé hago?</h3>
+						<h3>Lo quiero ¿Qué hago?</h3>
 						<h4 class="txt-azul">Paso 1: Envianos tu link</h4>
 						<p>Al darle click al botón de prueba. Coloca tu nombre y tu correo electrónico a donde enviaremos el video y el informe con el feedback.</p>
 						<h4 class="txt-azul">Paso 2: Describe a tu público objetivo</h4>
@@ -133,7 +135,8 @@
 			<section>
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-						<h2 class="txt-azul">Por qué usar <img src="image/logo-2.jpg"></h2>
+						<span class="txt-azul">Por qué usar</span>
+						<img class="img-responsive logo" src="image/logo-2.jpg">
 						<p>En la era en la que nos encontramos, la web se ha convertido en el mejor sitio para llegar a millones de personas en segundos, pero ¿qué pasa si el producto digital que ofreces no es bueno o no se entiende? Pierdes esta enorme oportunidad. Con <span class="txt-azul">User Testing 360</span>, puedes entender la experiencia de uso de tu página o producto digital y mejorarla para que satisfaga todas las necesidades de tus usuarios. Con <span class="txt-azul">User Testing 360</span> podrás entender:</p>
 						<ul>
 							<li>¿Cómo tu público objetivo verdaderamente usa tu producto?</li>
@@ -142,11 +145,36 @@
 						</ul>
 						<p><span class="txt-azul">"User Testing 360"</span> te ayudará a responder estas preguntas y muchas más. Es el toque final perfecto para tu página o producto digital.</p>
 					</div>
-					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-						<img src="image/banner.jpg" alt="banner">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"> 
+						<img class="img-responsive" src="image/banner.jpg" alt="banner">
 					</div>
 				</div>
 			</section>
+			<section>
+				<div class="row bg-azul"><!--texto fondo azul-->
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-right">
+						<h5>PRUEBA GRATUITA</h5>
+						<p>Obtén un video gratis de 5 minutos</p>
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-left">
+						<button type="button" class="btn btn-outline-primary">Pruebalo gratis</button><!--boton-->
+					</div>
+				</div>
+			</section>
+			<footer>
+				<div class="row">
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<p>Escribenos a:</p>
+						<a href="#">experienciadeusuario.lab@gmail.com</a>
+						<p>telef: 989637925</p>
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<span class="icon-facebook"></span>
+						<span class="icon-twitter"></span>
+						<p>Copyright&copy;2015-User Testing 360</p>
+					</div>
+				</div>
+			</footer>
 		</div>
 		
 		<script src="js/jquery.min.js"></script><!--llamar jquery para que funcione bootstrap-->

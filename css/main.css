@@ -1,0 +1,72 @@
+/*imagen de fondo*/
+#bg-fondo{
+	background: url("../image/large.jpg") no-repeat;
+	background-size: 100%;
+	height: 650px;
+}
+.foto{
+	max-width: 100%;
+	height: 400px;
+}
+div{
+	border: 1px solid pink; 
+}
+/*fondo azul*/
+.bg-azul{
+	background-color: rgba(78,127,184,0.6);
+	padding: 4%;
+}
+/*color textos*/
+.txt-blanco, .bg-icono{
+	color: #fff
+}
+.txt-azul, .icono{
+	color: #68ADFF;
+}
+/*imagenes*/
+span.txt-azul{
+	font-size: 2em;
+}
+.logo{
+	max-width: 40%;
+	height: 50px;
+	display: inline;
+}
+/*video*/
+iframe{
+	width: 100%;
+	height: 275px;
+}
+/*icono*/
+.icono{
+	font-size: 3em;
+}
+/*icono con borde*/
+.bg-icono{
+	background-color: #50BDEA;
+	font-size: 2em;
+	padding: 2%;
+	border-radius: 100%;
+	position: absolute;
+}
+/*margen*/
+.mgb-30{
+	margin-bottom: 45%;
+}
+/*posicion icon*/
+.top{
+	top: 15%;
+	left: 93%;
+}
+.center{
+	top: 45%;
+	left: 93%;
+}
+.bottom{
+	bottom: 10%;
+	left: 93%;
+}
+/*padding*/
+.pd-flecha{
+	padding: 3% 40%;
+}
