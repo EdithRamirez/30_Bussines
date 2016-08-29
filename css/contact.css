@@ -1,0 +1,30 @@
+#bg-fondo{
+	background: url("../image/large.jpg") no-repeat;
+	background-size: cover;
+}
+.fondo{
+	background-color: rgba(128,128,128,.4);
+	height: 100%;
+}
+form{
+	width: 70%;
+	padding: 5% 10%;
+	margin: 10%;
+	border-top: 5px solid #72A1D9; 
+}
+.color{
+	background-color: #fff;
+}
+span{
+	color: red;
+}
+/*padding y margin*/
+.pd-5{
+	padding-top: 5%;
+}
+h4{
+	border-bottom: 1px solid #000; 
+}
+.fa{
+	color: #68ADFF;
+}

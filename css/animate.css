@@ -138,8 +138,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .pulse {
   -webkit-animation-name: pulse;
-  animation-name: pulse;
-   animation-duration: 1.5s; 
+  animation-name: pulse; 
 }
 
 @-webkit-keyframes rubberBand {
@@ -2910,7 +2909,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .zoomIn {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
-  animation-duration: 6s;
 }
 
 @-webkit-keyframes zoomInDown {

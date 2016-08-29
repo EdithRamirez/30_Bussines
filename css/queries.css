@@ -22,7 +22,7 @@
 		padding: 10%;
 	}
 	/*posicion de iconos*/
-	#top, #center, #bottom{
+	.bg-icono{
 		position: absolute;
 		left: 93%;
 	}
@@ -33,7 +33,20 @@
 		top: 45%;
 	}
 	#bottom{
-		bottom: 10%;
+		bottom: 15%;
+	}
+	/*animacion nuestros servicios*/
+	.icono{
+		animation: iconito 5s infinite;
+	}	
+	
+	@-webkit-keyframes iconito{
+		0% {
+			background-color: #97CEC7;
+		}
+		100% {
+			background-color: #fff;
+		}
 	}
 }
 @media screen and (max-width: 600px) {
@@ -48,8 +61,10 @@
 		padding: 5%;	
 	}
 	/*posicion de iconos*/
-	#top, #center, #bottom{
-		margin-left: 15%;
+	.bg-icono{
+		margin-left: 18%;
 	}
-	
+	.btn{
+		margin-top: 15%;
+	}	
 }
