@@ -3,7 +3,8 @@
 	.grande{
 		font-size: 3em;
 		color: #FFF;
-		padding: 20% 10% 0;
+		padding: 10%;
+		text-shadow: 4px 3px 8px rgba(0, 0, 0, 1);
 		animation-name: texto-grande;
 		animation-duration: 3s;
 	}	
@@ -16,14 +17,39 @@
 			color: #090760;
 		}
 	}
+	/*icono con borde*/
+	.borde{
+		padding: 10%;
+	}
+	/*posicion de iconos*/
+	#top, #center, #bottom{
+		position: absolute;
+		left: 93%;
+	}
+	#top{
+		top: 15%;
+	}
+	#center{
+		top: 45%;
+	}
+	#bottom{
+		bottom: 10%;
+	}
 }
 @media screen and (max-width: 600px) {
 	.grande{
 		font-size: 2em;
 		padding: 10%;
 		color: #FFF;
+		text-shadow: 4px 3px 8px rgba(0, 0, 0, 1);
 	}
-	.bg-azul{
-		margin-top: 10%;
+	/*icono con borde*/
+	.borde{	
+		padding: 5%;	
 	}
+	/*posicion de iconos*/
+	#top, #center, #bottom{
+		margin-left: 15%;
+	}
+	
 }

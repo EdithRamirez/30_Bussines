@@ -1,11 +1,7 @@
 /*imagen de fondo*/
 #bg-fondo{
 	background: url("../image/large.jpg") no-repeat;
-	background-size:100%;
-	height: 45em;
-}
-.fondo{
-	background-color: rgba(0,0,0,.4);
+	background-size: 100% 100%;
 }
 /*foto de iconos*/
 .foto{
@@ -17,15 +13,11 @@
 	background-color: rgba(78,127,184,0.6);
 	padding: 3.3%;
 }
-/*margen*/
-.mgb-20{
-	margin-bottom: 20%;
-}
 /*color textos*/
 .txt-blanco, .bg-icono{
 	color: #fff
 }
-.txt-azul, .icono{
+.txt-azul, .icono, .fa{
 	color: #68ADFF;
 }
 /*imagenes*/
@@ -47,48 +39,36 @@ iframe{
 .icono{
 	font-size: 3em;
 }
-/*icono con borde*/
+
 .bg-icono{
 	background-color: #50BDEA;
 	font-size: 2em;
 	padding: 2%;
 	border-radius: 100%;
-	position: absolute;
-}
-/*posicion icon*/
-.top{
-	top: 15%;
-	left: 93%;
-}
-.center{
-	top: 45%;
-	left: 93%;
-}
-.bottom{
-	bottom: 10%;
-	left: 93%;
 }
 /*padding flecha*/
 .pd-flecha{
-	padding: 3% 40%;
+	padding: 3%;
+	transition: all 1s ease-in-out;
+}
+.pd-flecha:hover{
+	transform: translateX(200%);
 }
 /*redes*/
 .redes{
 	color: #3275A4;
+	padding-left: 3%; 
 }
 /*icono linea*/
 .separador{
-	max-width: 8%;
+	width: 60px;
 	margin-left: 45%;
+	position: absolute;
+	top: -30%;
 }
-
-/*padding separacion*/
-.pdtb-2{
-	padding-top: 2%;
-	padding-bottom: 2%;
-}
-.pdt-15{
-	padding-top: 15%;
+hr{
+	border: 1px solid #666;
+	width: 100%;
 }
 /*negritas*/
 strong{
@@ -113,4 +93,31 @@ h4{
 /*pie de pagina*/
 .bg-pie{
 	background-color: #2A3541;
+}
+
+/*modal*/
+label{
+	color: #000;
+}
+/*boton de modal*/
+.btn-info{
+	padding: 2%;
+}
+
+/*padding separacion*/
+.pdtb-2{
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.pdt-10{
+	padding-top: 10%;
+}
+.pd-5{
+	padding: 5%;
+}
+/*borde blanco de 3 iconos*/
+.borde{
+	border-radius: 100%;
+	background: #fff;
+	box-shadow: 5px 5px 40px 5px rgba(0,0,0,0.24);
 }
