@@ -1,0 +1,29 @@
+@media screen and (min-width: 940px) {
+	/*texto principal*/
+	.grande{
+		font-size: 3em;
+		color: #FFF;
+		padding: 20% 10% 0;
+		animation-name: texto-grande;
+		animation-duration: 3s;
+	}	
+	/*animacion*/
+	@-webkit-keyframes texto-grande{
+		from{
+			color: #FFF;
+		}
+		to{
+			color: #090760;
+		}
+	}
+}
+@media screen and (max-width: 600px) {
+	.grande{
+		font-size: 2em;
+		padding: 10%;
+		color: #FFF;
+	}
+	.bg-azul{
+		margin-top: 10%;
+	}
+}
